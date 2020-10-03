@@ -70,7 +70,7 @@ const First: React.FC = () => {
   const offsetY = useTransform(
     scrollYProgress,
     [0.328, 0.0397, 0.461, 0.53],
-    ['0%', '-100%', '100%', '-200%'],
+    ['0%', '-100%', '-100%', '-200%'],
   );
 
   return (
