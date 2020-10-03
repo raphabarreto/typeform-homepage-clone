@@ -1,7 +1,37 @@
 import React from 'react';
 
+import Header from './components/Header';
+import FirstAndSecond from './components/FirstAndSecond';
+
+import GlobalStyles from './styles/global';
+import { Main, Section, Sticky } from './styles/index';
+
 const App: React.FC = () => {
-  return <h1>Hello World</h1>;
+  React.useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
+
+  return (
+    <>
+      <GlobalStyles />
+
+      <Header />
+
+      <Main style={{ height: '1610vh' }}>
+        <Section style={{ height: '72.7%' }}>
+          <FirstAndSecond />
+        </Section>
+
+        <Section style={{ height: '9.7%' }}>
+          <Sticky className="third" />
+        </Section>
+
+        <Section style={{ height: '9.7%' }}>
+          <Sticky className="fourth" />
+        </Section>
+      </Main>
+    </>
+  );
 };
 
 export default App;
