@@ -20,8 +20,8 @@
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a>
 
-  <a href="https://app.netlify.com/sites/typeform-homepage-clone-raphaelbarreto/deploys">
-    <img alt="License" src="https://api.netlify.com/api/v1/badges/4d73975b-ef60-4539-88dc-8924d6161bb5/deploy-status">
+  <a href="https://app.netlify.com/sites/typeform-homepage-clone/deploys">
+    <img alt="License" src="https://api.netlify.com/api/v1/badges/0c37b8bf-a1e9-40aa-9a71-d8ef0e921f52/deploy-status">
   <a>
 </p>
 
